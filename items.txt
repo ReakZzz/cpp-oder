@@ -1,0 +1,7 @@
+01 KoKa 1.01
+02 ABC 2.57
+03 Water 1.22
+04 Coffe 1.5
+05 Banana 1.2
+06 Apple 0.25
+07 Organe 0.30
