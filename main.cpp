@@ -4,13 +4,12 @@
 
 using namespace std;
 
-
 void CheckItems() {
 	int id;
 	double amount;
 	string name;
 
-	ifstream ItemsFile("./list/items.txt");
+	ifstream ItemsFile("items.txt");
 
 	cout << "--------[ITEMS LIST]--------" << endl;
 	cout << "-> ID, Name, Amount" << endl;
@@ -21,7 +20,7 @@ void CheckItems() {
 }
 
 void OrderItems() {
-	ifstream ItemsFile("./list/items.txt");
+	ifstream ItemsFile("items.txt");
 
 	int item_id, amount_item;
 	double item_amount;
@@ -33,7 +32,6 @@ void OrderItems() {
 	cin >> amount_item;
 
 	bool item_found = false;
-
 
 	while (ItemsFile >> item_id >> item_name >> item_amount) {
 		if (name == item_name || name == to_string(item_id)) {
