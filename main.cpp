@@ -39,7 +39,7 @@ void OrderItems() {
 			cout << "----------------------" << endl;
 			cout << "> Item found:\n";
 			cout << "> ID: " << item_id << endl;
-			cout << "> Name: " << item_name << endl;
+			cout << "> Name: " << item_name << "x" << amount_item << endl;
 			cout << "> Amount: " << item_amount * amount_item << "$" << endl;
 			cout << "----------------------" << endl;
 		}
